@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.android.auchi.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <ImageView style="@style/businessImage" />
+        <TextView style="@style/businessNameStyle" />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/businessContactStyle"
+                android:text="@string/businessContactLabel"
+                android:textStyle="bold" />
+            <TextView
+                style="@style/businessContactStyle"
+                android:text="@string/businessContact"
+                android:layout_weight="2"
+                 />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <TextView
+                style="@style/businessAddressStyle"
+                android:text="@string/businessAddressLabel"
+                android:textStyle="bold" />
+            <TextView
+                style="@style/businessAddressStyle"
+                android:text="@string/businessAddress"
+                android:layout_weight="2"
+                />
+        </LinearLayout>
+        <TextView
+            style="@style/businessDescriptionStyle"
+            android:text="@string/businessDescriptionLabel"
+            android:layout_marginTop="@dimen/layoutMargin"
+            android:textStyle="bold" />
+        <TextView
+            style="@style/businessDescriptionStyle"
+            android:text="@string/businessDescription" />
+        <TextView
+            style="@style/businessOpenHoursStyle"
+            android:layout_marginTop="@dimen/layoutMargin"
+            android:text="@string/businessOpenHoursLabel"
+            android:textStyle="bold"/>
+        <TextView
+            style="@style/businessOpenHoursStyle"
+            android:text="@string/businessOpenHours"
+            android:paddingBottom="@dimen/layoutMargin"/>
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Au-Chi</string>
+    <string name="businessName">Au-Chi Dumplings</string>
+    <string name="businessContactLabel">Contact:</string>
+    <string name="businessContact">+0 978-000-1022</string>
+    <string name="businessAddressLabel">Address:</string>
+    <string name="businessAddress">100 Lame Street, Charlotte, North Carolina, 29890</string>
+    <string name="businessDescriptionLabel">Description:</string>
+    <string name="businessDescription">We specialize in fresh, pipping hot, authentic chinese dumplings.\n\nOur dumpling menu is,\n\u25AASteamed/Fried Veg\n\u25AASteamed Lettuce-Kale Jain (new)\n\u25AASteamed/Fried Chicken</string>
+    <string name="businessOpenHoursLabel">Open Hours:</string>
+    <string name="businessOpenHours">\u25AAMon - Thu (4.00 pm to 9.00 pm)\n\u25AAFri - Sun (6.00 pm to 11.00 pm)</string>
+</resources>
