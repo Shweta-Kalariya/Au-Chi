@@ -37,6 +37,7 @@
         <item name="android:layout_width">wrap_content</item>
         <item name="android:layout_height">wrap_content</item>
         <item name="android:text">@string/businessAddress</item>
+        <item name="android:autoLink">map</item>
         <item name="android:textSize">16sp</item>
         <item name="android:layout_marginLeft">@dimen/layoutMargin</item>
         <item name="android:layout_marginRight">@dimen/layoutMargin</item>
